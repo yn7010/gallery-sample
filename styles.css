@@ -1,0 +1,54 @@
+
+
+.galaries {
+    width: 50vh;
+    height: 40vh;
+    display: inline-block;
+    margin: 30px 30px;
+    text-decoration: none;
+    color:#6c6363;
+}
+
+.galaries:hover {
+    text-decoration: none;
+    color:#6c6363;
+}
+
+img {
+    width: 50vh;
+    height: 40vh;
+}
+
+body {
+    background-color: oldlace;
+    color:#6c6363;
+}
+
+#slide {
+    height: 800px;
+}
+
+#slide img {
+    position: absolute;
+    left: 10vw;
+    top: 10vh;
+    width: 80vw;
+    height: 600px;
+}
+
+.slide-left img{
+    position: absolute;
+    top: 300px;
+    left: 5.0vw;
+    width:5vw;
+    height:20vh; 
+}
+
+.slide-right img{
+    position: absolute;
+    top: 300px;
+    left: 90vw;
+    width:5vw;
+    height:20vh;
+    transform: rotate(180deg);
+}
